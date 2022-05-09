@@ -1,0 +1,117 @@
+Body {
+    margin: 0px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+nav {
+    display: flex;
+    background-color: #1f2937;
+}
+.main {
+    color: #f9faf8;
+}
+.main.a {
+    margin-left: 50px;
+}
+.sec {
+    color: #e5e7eb;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 800px;
+}
+ul li {
+    margin: 8px;
+}
+ul li a {
+    text-decoration: none;
+}
+img{
+    width: 200px;
+    height: 150px;
+}
+.intro {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    background-color: #1f2937;
+}
+.intro h2{
+    font-size: 3em;
+}
+#capy1 {
+    width: 250px;
+    height: 200px;
+    margin-left: 40px;
+    border: 4px solid white;
+    border-radius: 5%;
+}
+#container {
+    display: flex;
+    gap: 56px;
+    text-align: center;
+    padding: 80px;
+}
+.imgcap {
+    border-radius: 5%;
+    border: 4px solid burlywood;
+}
+button{
+    padding: 8px 16px;
+    text-align: center;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1 {
+    background-color: white;
+    border: 2px solid #fa5f49;
+    color: black;
+}
+.button1:hover {
+    background-color: #fa5f49; 
+    color: white;
+}
+.container1 {
+    text-align: center;
+    padding: 80px;
+    background-color: #e5e7eb;
+}
+.mar {
+    text-align: right;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    padding:50px;
+}
+.box {
+    padding: 20px;
+    background-color: #f9d99a;
+    justify-content: center;
+    border-radius: 3%;
+}
+.box button{
+    margin-left: 20px;
+    border: 2px solid #f9a59a;
+    color: black;
+}
+.box button:hover {
+    background-color: #f9a59a;
+    color: white;
+}
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 15px;
+}
+p cite{
+    color: #1f2937;
+}
